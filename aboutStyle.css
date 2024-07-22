@@ -1,0 +1,130 @@
+body {
+    background-image: url('https://st2.depositphotos.com/1000956/7603/i/950/depositphotos_76036175-stock-photo-white-fluffy-clouds.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.navBar {
+    background-color: #00b4d8;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.navDiv {
+    display: flex;
+    align-items: Center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logoImg {
+    /* border: solid green; */
+    border-radius: 20%;
+    padding: 1em;
+    max-height: 70px;
+    max-width: 80px;
+    margin-right: 1em;
+}
+
+
+.logo p {
+    font-size: 30pt;
+    color: aliceblue;
+}
+
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+li a {
+    color: aliceblue;
+    font-size: 18pt;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.navDiv button {
+    opacity: 1;
+    transition: opacity 230ms;
+}
+
+.navDiv button:hover {
+    opacity: 0;
+}
+
+.historyCont {
+    /* border: solid red; */
+    background-color: aliceblue;
+    padding: 1em;
+    margin-top: 10em;
+    margin-left: 30em;
+    margin-right: 40em;
+
+
+}
+
+.history p {
+    color: #03045e;
+    font-size: 12pt;
+}
+
+.bottomContainer {
+    border: solid #000000;
+    background-color: aliceblue;
+    max-width: fit-content;
+    max-height: fit-content;
+    position: relative;
+    animation: tableMove 5s infinite;
+}
+
+.bottomContainer table th td {
+    border: 1px solid #00b4d8;
+}
+
+
+
+@keyframes tableMove {
+    0% {
+        top: 10000px;
+        right: 1000px;
+        background: red;
+    }
+
+    25% {
+        top: 500px;
+        left: 100px;
+        background: blue;
+    }
+
+    50% {
+        top: 500px;
+        left: 100px;
+        background: yellow;
+    }
+
+    75% {
+        top: 100px;
+        left: 0px;
+        background: green;
+    }
+
+    100% {
+        top: 0px;
+        left: 0px;
+        background: red;
+    }
+}
