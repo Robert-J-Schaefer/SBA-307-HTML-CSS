@@ -8,80 +8,80 @@ body {
 }
 
 .navBar {
-    background-color: #00b4d8; 
+    background-color: #00b4d8;
     width: 100%;
-    position: fixed;  
+    position: fixed;
     display: flex;
     align-items: center;
-    justify-content: space-between; 
-    
+    justify-content: space-between;
+
 }
 
-.navDiv  {
+.navDiv {
     display: flex;
     align-items: Center;
     justify-content: space-between;
 }
 
-.logo{
+.logo {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.logoImg{
+.logoImg {
     /* border: solid green; */
     border-radius: 20%;
     padding: 1em;
     max-height: 80px;
     max-width: 80px;
-    margin-right: 1em;      
+    margin-right: 1em;
 }
 
 
-.logo p{
+.logo p {
     font-size: 30pt;
     color: aliceblue;
 }
 
 
-li{
-    list-style: none; display: inline-block;
+li {
+    list-style: none;
+    display: inline-block;
 }
 
-li a{
+li a {
     color: aliceblue;
     font-size: 18pt;
     font-weight: bold;
     margin-right: 20px;
 }
 
-.navDiv button{
+.navDiv button {
     opacity: 1;
-    transition: opacity 230ms ;
+    transition: opacity 230ms;
 }
 
-ul button:hover{
+ul button:hover {
     opacity: 0;
 }
 
-.title{
+.title {
     /* border: solid red; */
     margin-top: 8em;
     background-color: aliceblue;
     color: #03045e;
     text-align: center;
     font-size: 15pt;
-    
+
 }
-.test{
+
+.test {
     /* border: solid red; */
     background-color: aliceblue;
     color: #03045e;
     margin-top: 2em;
     display: flex;
     flex-direction: column;
-    text-align: center; 
+    text-align: center;
 }
-
-

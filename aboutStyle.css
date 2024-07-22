@@ -89,11 +89,17 @@ li a {
     max-height: fit-content;
     position: relative;
     animation: tableMove 5s infinite;
+    text-align: center;
+    font-size: 15pt;
 }
 
-.bottomContainer table th td {
-    border: 1px solid #00b4d8;
+
+
+table{
+    border: 10px solid #00b4d8;
+    
 }
+
 
 
 

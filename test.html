@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title></title>
+    <title>Rejuvenation Citizens Test</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="testStyle.css">
@@ -37,7 +37,7 @@
     </div>
     <!-- Test Body -->
     <section class="test">
-        
+
         <section class="acctCreate">
             <div class="acctForms">
                 <h1>Create Account and Take your Test</h1>
@@ -54,18 +54,20 @@
                 </div>
             </div>
             <br>
-            <label for="age"><h3>Whats your age?:</h3></label>
+            <label for="age">
+                <h3>Whats your age?:</h3>
+            </label>
 
             <select name="age" id="age">
                 <option value="1">Too Young</option>
                 <option value="2">Young Enough</option>
                 <option value="3">Too Old</option>
-                <option value="4">Age is a construct developed by name</option>
+                <option value="4">Age is a construct developed by man</option>
             </select>
             <br><br>
             <h3>Check all that apply</h3>
 
-            <form name="excited"> 
+            <form name="excited">
                 <input type="checkbox" id="excited1" name="excited1" value="1">
                 <label for="excited1"> I am Excited</label><br>
                 <input type="checkbox" id="excited2" name="excited2" value="2">
@@ -85,33 +87,33 @@
             <div class="button">
                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
                     Submit Test
-                  </button>
-                  
+                </button>
+
             </div>
-            
+
         </section>
 
         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h1 class="modal-title fs-5" id="exampleModalLabel">Error Error!</h1>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Error Error!</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h1>Thank you trying. But currently we are full of students. Try again next year!</h1>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary"><a href="index.html">Retake Test</a></button>
+                        <button type="button" class="btn btn-primary"><a class="popTxt" href="index.html">Submit Test</a></button>
+                    </div>
                 </div>
-                <div class="modal-body">
-                  <h1>Thank you trying. But currently we are full of students. Try again next year!</h1>
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary"><a href="index.html">Retake Test</a></button>
-                  <button type="button" class="btn btn-primary"><a class="popTxt" href="index.html">Submit Test</a></button>
-                </div>
-              </div>
             </div>
-          </div>
-          
-        
+        </div>
+
+
     </section>
-    
+
 
     <script src="app.js" async defer></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
